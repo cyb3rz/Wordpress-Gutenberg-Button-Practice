@@ -1,0 +1,74 @@
+/**
+ * ----------------------------------------------------------------------------
+ * #.# Editor CSS
+ * ----------------------------------------------------------------------------
+ */
+
+.wp-block-mybutton-sk {
+	background-color: #0085ba;
+	width: 100%;
+	padding: 15px 25px;
+}
+.cta-title {
+	color: #FFF;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+    line-height: 1.4;
+    margin: 0 0 0.75em;	
+}
+.edit-post-visual-editor p.cta-content {
+	color: #FFF;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;	
+	text-align: center;
+    margin: 0 0 0.75em;		
+}
+
+.cta-button-container {
+	padding-top: 10px;
+	text-align: center;
+}
+.cta-button-interior.editor-rich-text__tinymce.mce-content-body {
+	background-color: #FFF;
+	color: #333;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;	
+	-webkit-box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.55);
+	-moz-box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.55);
+	box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.55);	
+    min-width: 140px;
+    width: auto;	
+}
+.cta-button-interior.editor-rich-text__tinymce.mce-content-body+.editor-rich-text__tinymce {
+	margin: 5px 15px;
+}
+
+a.cta-button .blocks-rich-text {
+	display: inline;
+}
+
+a.cta-button:focus {
+	border: 1px solid #888;
+	border-radius: 5px;
+	padding: 15px 15px;
+	caret-color: #333;
+}
+.cta-button-url {
+	color: #FFF;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;	
+	text-align: center;
+    margin: 0 0 0.75em;	
+}
+.cta-title:focus, .cta-content:focus, 
+.cta-button-url:focus, .cta-button-interior:focus {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}

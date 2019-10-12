@@ -1,0 +1,124 @@
+/**
+ * ----------------------------------------------------------------------------
+ * #.# Frontend CSS
+ * ----------------------------------------------------------------------------
+ */
+
+.wp-block-mybutton-sk {
+	/* background-color: #db211e; */
+	width: 100%;
+	padding: 15px 25px;
+}
+.cta-title {
+	color: #FFF;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+    line-height: 1.4;
+    margin: 0 0 0.75em;	
+}
+.cta-content {
+	color: #FFF;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;	
+	text-align: center;
+	margin: 0 0 0.75em;	
+}
+.cta-button-container {
+	padding-top: 10px;
+	text-align: center;
+}
+.cta-button-container .cta-button {
+	background-color: #FFF;
+	color: #333;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;	
+	-webkit-box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.5);	
+}
+.cta-button-container .cta-button:hover {
+	-webkit-box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.65);
+	-moz-box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.65);
+	box-shadow: 3px 3px 11px 2px rgba(0,0,0,0.65);	
+}
+
+
+	a.btn-shadow:focus{
+    outline:none;
+    color:#ea1717;
+    background:#fff
+}
+.btn-shadow{
+    color:#fff;
+    background:#d30909;
+    background:-moz-linear-gradient(left,#d30909 0%,#eb1818 100%);
+    background:-webkit-linear-gradient(left,#d30909 0%,#eb1818 100%);
+    background:linear-gradient(to right,#d30909 0%,#eb1818 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d30909',endColorstr='#eb1818',GradientType=1);
+    box-shadow:24px 6px 60px rgba(255,0,0,.15);
+    border:1px solid #e81616;
+    border-radius:4px
+}
+.btn-shadow:hover{
+    color:#e81616;
+    background:#fff;
+    border:1px solid #e81616
+}
+.dankash-sec2{
+    width:100%;
+    float:left;
+    padding-bottom:100px
+}
+
+.pulse{
+    -webkit-animation-name:pulse;
+    animation-name:pulse;
+    animation-iteration-count:infinite;
+    animation-duration:1.5s
+}
+
+
+.enroll-btn{
+    font-size:15px;
+    font-family:montserrat-bold;
+    display:inline-block;
+    padding:18px 108px;
+    margin:45px 0 125px
+}
+.pulse {
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+	animation-iteration-count: infinite;
+	animation-duration: 1.5s
+}
+@keyframes pulse{
+    0%{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        transform:scale(1)
+    }
+    50%{
+        -webkit-transform:scale(1.1);
+        -ms-transform:scale(1.1);
+        transform:scale(1.1)
+    }
+    100%{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        transform:scale(1)
+    }
+}
+a {
+    text-decoration: none!important;
+    transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -ms-transition: all ease-in-out .2s;
+    -o-transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out .2s;
+}
